@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ALL-DOTNET\\DatingApp\\api\\API.csproj": {}
+    "d:\\ALL-DOTNET\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\ALL-DOTNET\\DatingApp\\api\\API.csproj": {
+    "d:\\ALL-DOTNET\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ALL-DOTNET\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "d:\\ALL-DOTNET\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\ALL-DOTNET\\DatingApp\\api\\API.csproj",
+        "projectPath": "d:\\ALL-DOTNET\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Aju\\.nuget\\packages\\",
-        "outputPath": "D:\\ALL-DOTNET\\DatingApp\\api\\obj\\",
+        "outputPath": "d:\\ALL-DOTNET\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aju\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
